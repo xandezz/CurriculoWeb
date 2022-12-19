@@ -1,0 +1,41 @@
+.icon-fab{
+   font-size:300%;
+}
+
+.icon-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 20px;
+} 
+
+.container-galeria {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.projetos-img {
+    width: 465px;
+    transition: all .3s ease-in-out;
+    opacity: .7;
+    border-radius: 10px;
+    border: #000000 solid 1px;
+    
+}
+
+.projetos-img:hover {
+    scale: 1.1;
+    z-index: 1000;
+    opacity: 1;
+}
+
+.centraliza-projeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
